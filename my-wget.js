@@ -8,8 +8,9 @@ const main = async () => {
     await fsPromises.writeFile('index.html', response.data) // response.data est une string qui est la page html
     const stats = await fsPromises.stat('index.html')
 
-    console.log(response)
+    
     console.log(stats.size)
+    console.log(response.headers)
   
   } catch (e) {
     console.log(e.message)
