@@ -1,0 +1,11 @@
+{
+  "name": "exo-async-0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/adouch9/exo-async-0.git",
+  "author": "adouch9 <mr.ouldmoussa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
